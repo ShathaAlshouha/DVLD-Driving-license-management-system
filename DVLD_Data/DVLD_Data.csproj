@@ -4,6 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>75b9a0a6-0d29-4c0f-a38c-c420af06c84e</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\DVLD_Data.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
 
 </Project>

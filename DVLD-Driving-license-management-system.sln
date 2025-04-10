@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD-Driving-license-management-system", "DVLD-Driving-license-management-system.csproj", "{B6B09D81-70E0-430C-B237-87882C5BA1E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DVLD-Driving-license-management-system", "DVLD-Driving-license-management-system.csproj", "{B6B09D81-70E0-430C-B237-87882C5BA1E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_Data", "DVLD_Data\DVLD_Data.csproj", "{FEBCF9CF-5EE1-4F56-9A27-E6503D02794A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DVLD_Data", "DVLD_Data\DVLD_Data.csproj", "{FEBCF9CF-5EE1-4F56-9A27-E6503D02794A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVLD_Buisness", "..\DVLD_Buisness\DVLD_Buisness.csproj", "{77C539E2-A705-442E-96DB-0D5ACE89F549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FEBCF9CF-5EE1-4F56-9A27-E6503D02794A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEBCF9CF-5EE1-4F56-9A27-E6503D02794A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEBCF9CF-5EE1-4F56-9A27-E6503D02794A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C539E2-A705-442E-96DB-0D5ACE89F549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C539E2-A705-442E-96DB-0D5ACE89F549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C539E2-A705-442E-96DB-0D5ACE89F549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C539E2-A705-442E-96DB-0D5ACE89F549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
